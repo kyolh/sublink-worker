@@ -233,7 +233,7 @@ export class ClashConfigBuilder extends BaseConfigBuilder {
             type: 'url-test',
             proxies: DeepCopy(proxyList),
             url: 'https://www.gstatic.com/generate_204',
-            interval: 300,
+            interval: 86400,
             lazy: false
         });
     }
@@ -375,7 +375,7 @@ export class ClashConfigBuilder extends BaseConfigBuilder {
                     type: 'url-test',
                     proxies: proxies,
                     url: 'https://www.gstatic.com/generate_204',
-                    interval: 300,
+                    interval: 86400,
                     lazy: false
                 });
                 existingNames.add(norm);
